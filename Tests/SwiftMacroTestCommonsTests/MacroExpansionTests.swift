@@ -1,7 +1,7 @@
 import SwiftSyntax
 import SwiftSyntaxMacros
 import Testing
-import TestCommonsMacroTesting
+import SwiftMacroTestCommons
 
 struct IdentityMacro: ExpressionMacro {
     static func expansion(of node: some FreestandingMacroExpansionSyntax, in context: some MacroExpansionContext) throws
